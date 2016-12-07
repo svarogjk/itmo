@@ -1,12 +1,13 @@
+# coding: utf-8
 
 x = 10
 
-
-
-f = open('Documents/popitka.txt', "w")
+f = open('popitka.txt', "w")
 
 if x > 3:
     f.write(str(x) + '\n')
+
+f.write('Привет')
 
 f.close()
 
