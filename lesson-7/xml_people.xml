@@ -1,0 +1,10 @@
+<people>
+    <man hidden="true">
+        <name>Ольга Сидорова</name>
+        <age>25</age>
+    </man>
+    <man>
+        <name>Иван Петров</name>
+        <age>30</age>
+    </man>
+</people>
