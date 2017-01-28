@@ -1,0 +1,29 @@
+pyqt2016 pyrcc5 -o stuff_rc.py - скомпиллировать файл ресурсов
+pyuic5 -o Ui_MainWindow.py main_window.ui - скомпилировать модули .ui
+sqlalchemy
+ponyorm
+sudo apt-get install python3-pyqt5.qtsql
+
+
+QMessageBox.critical()
+
+for Compiling (not PyQt5):
+
+Dependency Walker
+nuitka
+setup_tools - upgrade
+
+python2
+
+for Windows_10: Visual C++ Compiler SDK 14.0
+
+nuitka --standalone --recurse-all --python-version=3.5 main.py
+
+for PyQt5:
+nuitka --standalone --recurse-all --python-version=3.5 --recurse-all --recurse-not-to-PyQt5 --plugin main.py
+
+Заменить pyd на dll из установочников
+
+nsis - запихать в установщик
+
+
